@@ -5,7 +5,7 @@
         </strong>
         <nav class="nav">
             <g-link class="nav__link" to="/">Home</g-link>
-            <g-link class="nav__link" to="/about/">About</g-link>
+            <g-link class="nav__link" to="/about-me/">About Me</g-link>
         </nav>
     </header>
 </template>
@@ -34,13 +34,13 @@
         text-decoration: none;
     }
 
-    .nav__link:visited {
+    .nav__link:visited, .nav__link:link {
         text-decoration: none;
         color: white;
     }
 
     .title {
-        color: #944024;
+        color: #e58032;
         text-decoration: none;
         font-size: 50px;
 
