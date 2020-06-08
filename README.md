@@ -1,0 +1,1 @@
+This is the source code of my personal site that highlights some of my projects that I have got the chance to work on. I built this site with the Vue based static site generator Gridsome.  
