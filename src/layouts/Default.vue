@@ -1,6 +1,6 @@
 <template>
     <div class="layout">
-    <Header/>
+        <Header/>
         <slot/>
     </div>
 </template>
@@ -27,18 +27,17 @@
     @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
     body {
-        font-family: 'Comfortaa', cursive;
-        margin: 50px 10px;
-        padding: 0;
+        font-family: 'Comfortaa', sans-serif;
         line-height: 1.5;
         background: #1F1F1F;
         color: white;
     }
 
     .layout {
-        max-width: 760px;
+        padding: 10px 50px;
+        max-width: 1000px;
         margin: 0 auto;
-        padding-left: 20px;
-        padding-right: 20px;
     }
+
+
 </style>
